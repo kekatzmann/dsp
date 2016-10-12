@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Vim, because it comes with a handy tutorial and there are plenty of cheat sheets for it available online.
 
 --
 
@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Spyder because of its compatability with data science-related tasks, and also because it is included in the Anaconda bundle. It contains multiple windows for viewing outputs while simultaneously editing your work. Useful keyboard shortcuts include switching among open scripts and navigating and opening files. You can customize Spyder by altering the preferences. You can change the global working directory, display features (font, colors, dividing lines), and other regular features.
 
  
