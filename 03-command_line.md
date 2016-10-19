@@ -15,6 +15,12 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > popd      - Brings you back to the saved location after using the pushd command.
 
+> > cd ..     - Brings the current working directory up one level.
+
+> > pwd       - Reveals the current working directory.
+
+
+
 
 ---
 
