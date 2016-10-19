@@ -19,7 +19,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > pwd       - Reveals the current working directory.
 
-> > "$ > $"   - Takes output from the command on the left and writes it into the file on the right.
+> > $ > $   - Takes output from the command on the left and writes it into the file on the right.
 
 
 
