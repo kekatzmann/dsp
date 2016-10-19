@@ -9,7 +9,13 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+rm -iR    - Removes all directories and files at a specified location recursively (R), but also allows you to examine each directory before removal (i).
+
+pushd     - Allows you to go to a place further into your file system, while saving the location you last were.
+
+popd      - Brings you back to the saved location after using the pushd command.
+
 
 ---
 
