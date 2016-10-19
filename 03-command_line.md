@@ -23,6 +23,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > ">>"      - Takes output from command on left and appends it to file on right.
 
+> > "|"       - Pipes output from one command (on left) and to use as input for another command (on right).
+
 
 
 
