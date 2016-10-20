@@ -31,6 +31,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > grep -i     - Searches inside specified files. -i included to ignore case.
 
+> > man         - "manual" / help
+
+
 
 
 
