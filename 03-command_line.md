@@ -19,13 +19,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > pwd       - Reveals the current working directory.
 
-> > ">"       - Takes output from the command on the left and writes it into the file on the right.
+> > " > "       - Takes output from the command on the left and writes it into the file on the right.
 
-> > ">>"      - Takes output from command on left and appends it to file on right.
+> > " >> "      - Takes output from command on left and appends it to file on right.
 
-> > "|"       - Pipes output from one command (on left) and to use as input for another command (on right).
+> > " | "       - Pipes output from one command (on left) and to use as input for another command (on right).
 
-> > ls *      - Displays a list of all items in a directory, and the items in directories below. Only use for small directories. Asterik is used for 'wildcard matching'
+> > " * "    - Matches anything in a wildcard. ex: ls * (Displays a list of all items in a directory, and the items in directories below), rm * .txt (removes all files of the .txt format).
 
 
 
