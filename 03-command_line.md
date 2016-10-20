@@ -25,7 +25,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > "|"       - Pipes output from one command (on left) and to use as input for another command (on right).
 
-> > ls *      - Displays a list of all items in a directory, and the items in directories below. Only use for small directories.
+> > ls *      - Displays a list of all items in a directory, and the items in directories below. Only use for small directories. Asterik is used for 'wildcard matching'
 
 
 
