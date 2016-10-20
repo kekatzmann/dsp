@@ -27,6 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > " * "    - Matches anything in a wildcard. ex: ls * (Displays a list of all items in a directory, and the items in directories below), rm * .txt (removes all files of the .txt format).
 
+> > find . -name "name" -print     - used to find files/directories based on name. Can also find based on size (-size n), date accessed (-atime n).
 
 
 
