@@ -33,6 +33,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > man         - "manual" / help
 
+> > clear       - clears screen
+
 
 
 
@@ -51,7 +53,9 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls' gives you a short list of files and directories of the current directory you are in.
+
+> > 'ls -a' also includes 'hidden files'
 
 ---
 
