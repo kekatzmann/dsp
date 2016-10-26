@@ -59,7 +59,13 @@ What do the following commands do:
 
 > > 'ls -l' returns items in the current directory in a long listing format (shows who created the item, time it was last modified, etc.)
 
-> > 'ls -lh' returns 
+> > 'ls -lh' returns items in long listing and human readable format. It displays units of file sizes.
+
+> > 'ls -lah' returns items in long listing, human readable format, and includes hidden files.
+
+> > 'ls -t' returns items, sorted by time of last modification.
+
+> > 'ls -Glp' returns items in a long listing format, with directories highlighted (-G) and '/' to them (-p).
 
 ---
 
