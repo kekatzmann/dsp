@@ -53,9 +53,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 'ls' gives you a short list of files and directories of the current directory you are in.
+> > 'ls' returns a short list of files and directories of the current directory you are in. What you see in the graphical file browser.
 
-> > 'ls -a' also includes 'hidden files'
+> > 'ls -a' also includes 'hidden files' (those staring with . or ..)
+
+> > 'ls -l' returns items in the current directory in a long listing format (shows who created the item, time it was last modified, etc.)
+
+> > 'ls -lh' returns 
 
 ---
 
