@@ -73,7 +73,15 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls -R' returns items recursively. Includes items in subdirectories.
+
+> > 'ls -d' returns only directories.
+
+> > 'ls -m' returns items in a comma-separated list.
+
+> > 'ls -u' returns items in order of time last accessed.
+
+> > 'ls -1' returns items in single column.
 
 ---
 
