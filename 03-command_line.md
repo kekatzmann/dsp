@@ -89,7 +89,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' stands for "execute as arguments." It is used to 
+> > 'xargs' stands for "execute as arguments." It is used to carry out a command on multiple imputs.
+
+> > An example: find . -name " * .txt" -print | xargs grep 'Ro'   - finds all occurances of 'Ro' in .txt files in current directory.
 
  
 
