@@ -19,23 +19,23 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > pwd       - Reveals the current working directory.
 
-> > " > "       - Takes output from the command on the left and writes it into the file on the right.
+> > " > "     - Takes output from the command on the left and writes it into the file on the right.
 
-> > " >> "      - Takes output from command on left and appends it to file on right.
+> > " >> "    - Takes output from command on left and appends it to file on right.
 
-> > " | "       - Pipes output from one command (on left) and to use as input for another command (on right).
+> > " | "     - Pipes output from one command (on left) and to use as input for another command (on right).
 
-> > " * "       - Matches anything in a wildcard. ex: ls * (Displays a list of all items in a directory, and the items in directories below), rm * .txt (removes all files of the .txt format).
+> > " * "     - Matches anything in a wildcard. ex: ls * (Displays a list of all items in a directory, and the items in directories below), rm * .txt (removes all files of the .txt format).
 
 > > find . -name "name" -print     - used to find files/directories based on name. Can also find based on size (-size n), date accessed (-atime n).
 
-> > grep -i     - Searches inside specified files. -i included to ignore case.
+> > grep -i   - Searches inside specified files. -i included to ignore case.
 
-> > man         - "manual" / help
+> > man       - "manual" / help
 
-> > clear       - clears screen
+> > clear     - clears screen
 
-
+> > wc        - wordcount - returns number of lines, words, and characters in a file.
 
 
 
@@ -89,7 +89,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'xargs' stands for "execute as arguments." It is used to 
 
  
 
