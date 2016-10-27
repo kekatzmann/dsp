@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use vim. The main reason I chose this terminal editor is because it comes with a handy manual. It also seems to work fine on my computer.
 
 --
 
@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Spyder. I chose this graphical editor because it is included in the Anaconda package and it is designed as a data science platform. It also has a similar layout to R Studio, a platform I am familiar with. An interesting feature is the multi-panel screen, which makes switching between editing code, visualizing outputs, and managing datasets very easy.
 
  
