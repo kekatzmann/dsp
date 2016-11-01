@@ -12,7 +12,8 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> I'm not sure. The purpose of this response is to familiarize myself with git and vim.
+>> Lists and tuples are similar in that they convey a sequence of information. However, tuples have semantic value, with each position representing a different construct, and they cannot easily be changed (immutable). Lists on the other hand contian information of the same type, and are more easily changeable (mutable).
+>> Tuples will work as keys in dictonaries becasue they can be used to direct you to a specific location in a dataset, using their multiple levels of semantic value they (usually) have.
 
 ---
 
@@ -20,7 +21,9 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and sets are similar in that they both contain a sequence of information. They are different in that lists can contain duplicate entries, while sets filter out duplicates.
+>> Example: The size of families that live on my street: LIST: [2, 4, 3, 2, 6, 4]; SET: [2, 6, 3, 4]
+>> For finding an element, it is much quicker to use a set since your function would not need to inspect every element, including duplicates. This would be redundant and time-inefficient.
 
 ---
 
@@ -28,7 +31,9 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python's 'lambda' is a tool (function) used to create other functions, and is many times clearer and easier to employ than the 'def' tool.
+>> Example 1: g = lambda x: x**2
+>> Example 2: sorted(students, key=lambda x: x[0]) #this expression sorts the 'students' dataset by the first column of data
 
 ---
 
