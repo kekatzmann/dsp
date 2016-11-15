@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> Lists and tuples are similar in that they convey a sequence of information. However, tuples have semantic value, with each position representing a different construct, and they cannot easily be changed (immutable). Lists on the other hand contian information of the same type, and are more easily changeable (mutable).
+>> Lists and tuples are similar in that they convey a sequence of information. However, tuples have semantic value at each position, and they cannot easily be changed (immutable). Lists on the other hand contian information of the same type, and are mutable.
 >> Tuples will work as keys in dictonaries becasue they can be used to direct you to a specific location in a dataset, using their multiple levels of semantic value they (usually) have.
 
 ---
@@ -41,7 +41,14 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are used to concisely and logically create a list. There are many different flavors of list comprehensions, but all of them follow some parameters to produce a new list. 
+>> Example 1: squares = [i**2 for i in range(13)] #list of squares up to 12
+>> Example 2: squares = list(map((lambda x: x**2), (arange(0,13)))) #list of squares up to 12 using map
+>> Example 3: squares = list(filter((lambda x: sqrt(x) % 1 == 0), arange(0,12**2))) #list of squares up to 12 using filter
+>> map and filter are similar in that they both modify lists, but map 'maps' a function to the entire list, modifying each item individually, while filter 'filters out' certain items that dont meet a specified criteria.
+>> Set comprehensions are carried out similarly to lists.
+>> Example (set): s = {i for i in range(10)}
+
 
 ---
 
@@ -56,7 +63,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937 days
 
 b.  
 ```
@@ -64,7 +71,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513 days
 
 c.  
 ```
@@ -72,7 +79,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850 days
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
