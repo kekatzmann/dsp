@@ -1,6 +1,7 @@
 # Based on materials copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 
+from numpy import *
 
 def match_ends(words):
     """
@@ -15,6 +16,12 @@ def match_ends(words):
     >>> match_ends(['aaa', 'be', 'abc', 'hello'])
     1
     """
+    number = 0
+    for i in range(len(words)):
+        if len(words[i]) >= 2 and words[i][0] == words[i][-1]:
+            number += 1
+    return number
+           
     raise NotImplementedError
 
 
@@ -32,6 +39,15 @@ def front_x(words):
     >>> front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
+    xwords = []
+    other = []
+    for i in range(len(words)):
+        if words[i][0] == 'x':
+            xwords.append(words[i])
+        else:
+            other.append(words[i])
+    return (sorted(xwords)+sorted(other))           
+    
     raise NotImplementedError
 
 
@@ -49,6 +65,8 @@ def sort_last(tuples):
     >>> sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)])
     [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
     """
+    return sorted(tuples, key=lambda x: x[-1])   
+    
     raise NotImplementedError
 
 
@@ -68,6 +86,14 @@ def remove_adjacent(nums):
     >>> remove_adjacent([])
     []
     """
+    new = []
+    last = None
+    for i in nums:
+        if i != last:
+            new.append(i)
+        last = i
+    return new           
+    
     raise NotImplementedError
 
 
@@ -85,4 +111,6 @@ def linear_merge(list1, list2):
     >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
     ['aa', 'aa', 'aa', 'bb', 'bb']
     """
+    return sorted(list1+list2)
+    
     raise NotImplementedError

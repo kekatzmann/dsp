@@ -18,7 +18,15 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
+    if count >= 10:
+        return 'many'
+    elif count >= 0:
+        return count
+    else:
+        return '???'
+    
     raise NotImplementedError
+
 
 
 def both_ends(s):
@@ -37,6 +45,11 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
+    if len(s) > 2:
+        return s[0]+s[1]+s[-2]+s[-1]
+    else:
+        return ''
+    
     raise NotImplementedError
 
 
@@ -56,6 +69,8 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
+    return "".join((s[0], s[1:].replace(s[0], "*")))
+    
     raise NotImplementedError
 
 
@@ -74,6 +89,8 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
+    return "".join((b[0], b[1], a[2:], " ", a[0], a[1], b[2:]))
+
     raise NotImplementedError
 
 
@@ -91,6 +108,13 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
+    if len(s) >= 3:
+        if s[-3:] == 'ing':
+            s += 'ly'
+        else:
+            s += 'ing'
+    return s
+    
     raise NotImplementedError
 
 
@@ -111,6 +135,12 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
+    n = s.find('not')
+    b = s.find('bad')
+    if n<b:
+        s = s.replace(s[n:b+3],'good')
+    return s        
+    
     raise NotImplementedError
 
 
@@ -130,4 +160,24 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
+    if len(a)%2 == 0:
+        afrnt = a[:(len(a)//2)]
+        abck = a[(len(a)//2):]
+        if len(b)%2 == 0:
+            bfrnt = b[:(len(b)//2)]
+            bbck = b[(len(b)//2):]
+        else:
+            bfrnt = b[:((len(b)//2)+1)]
+            bbck = b[((len(b)//2)+1):]
+    else:
+        afrnt = a[:((len(a)//2)+1)]
+        abck = a[((len(a)//2)+1):]
+        if len(b)%2 == 0:
+            bfrnt = b[:(len(b)//2)]
+            bbck = b[(len(b)//2):]
+        else:
+            bfrnt = b[:((len(b)//2)+1)]
+            bbck = b[((len(b)//2)+1):]
+    return ''.join((afrnt+bfrnt+abck+bbck))
+    
     raise NotImplementedError
